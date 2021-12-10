@@ -10,3 +10,50 @@ ol{
     font-style: italic;
     font-size: x-large;
 }
+
+body{
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    columns: green;
+
+}
+
+.border{
+
+    background-color: blueviolet;
+}
+
+.table{
+    border-radius: 10%;
+    border: 2px solid gray;
+}
+
+p{
+    margin: 20px;
+}
+
+.changefont{
+
+    font-size: x-large;
+    color: red;
+}
+
+.hidecontent {
+
+    display: none;
+    visibility: hidden;
+}
+
+td{
+    border: 1px soli green;
+}
+
+
+
