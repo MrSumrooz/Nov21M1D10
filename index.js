@@ -52,7 +52,33 @@ let minNumber = function(){
 }
 console.log(Math.min(...randomArray))
 
+let arrayOfArrays = []
+
+for (i = 0 ; i < 5; i++){
+    
+
+    let nestedArray = []
+    for(j = 0; j<10;j++)
+    nestedArray.push(Math.floor(Math.random() *10))
+    arrayOfArrays.push(nestedArray)
+}
+
+console.log(arrayOfArrays)
 
 
+let arr1 = ["Saab", "Volvo", "BMW"]
+let arr2 =["John", "Doe", "smr","sumrooz"];
 
+let longestArray = function(){
+
+    return (arr1.length > arr2.length ? "Arr1 is longest" : "arr2 is longest");
+
+}
+console.log(longestArray())
+
+
+let numArray1 = [2,4,6,8,10]
+let numArray2 = [1,3,5,7,9]
+
+let 
 
