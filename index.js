@@ -29,22 +29,12 @@ let carsArray =
 console.log(carsArray)
 
 
-let randomArrayNumber = [];
-
-for (i = 0; i <= 100 ; i++ ){
-
-    
-
-    
-    return randomArrayNumber.push(Math.round(Math.random() * 100))
+let randomArray
     
     
 
-    
-    
-}
-
-console.log(randomArrayNumber)
+    randomArray = Array.from({length: 100}, () => Math.floor(Math.random() * 100));
+console.log(randomArray) 
 
 
 
