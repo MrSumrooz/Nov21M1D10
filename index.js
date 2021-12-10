@@ -37,4 +37,22 @@ let randomArray
 console.log(randomArray) 
 
 
+let maxNumber = function(){
+    
+    return Math.max(...randomArray)
+
+}
+
+console.log(maxNumber())
+
+let minNumber = function(){
+    
+    return Math.max(...randomArray)
+
+}
+console.log(Math.min(...randomArray))
+
+
+
+
 
