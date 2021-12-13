@@ -80,5 +80,38 @@ console.log(longestArray())
 let numArray1 = [2,4,6,8,10]
 let numArray2 = [1,3,5,7,9]
 
-let 
 
+let biggestSumOfArray = function(){
+
+   
+
+    
+
+    
+}
+console.log(biggestSumOfArray(numArray1,numArray2))
+
+
+
+// DOM Exercise start 
+
+
+
+let newDivCreate = function(){
+    let callContainer = document.getElementById("container")
+    let newDivInContainer = document.createElement("div")
+    newDivInContainer.innerHTML = "Here is dynamic Div which w have created "
+
+    callContainer.appendChild(newDivInContainer)
+
+}
+
+newDivCreate()
+
+let newAddClasstoTd = function(){
+
+    let tdClassChange = document.getElementsByTagName("td")
+    tdClassChange.classList.add("mystyle");
+
+}
+newAddClasstoTd()

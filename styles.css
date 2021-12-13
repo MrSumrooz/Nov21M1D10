@@ -55,5 +55,10 @@ td{
     border: 1px soli green;
 }
 
+.tdBorderChange{
+
+    border: 2px solid red;
+}
+
 
 
